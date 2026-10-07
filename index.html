@@ -1,0 +1,409 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="HOUSE Coffee & Desserts — Coffee, desserts and good moments in Gulberg, Lahore.">
+    <meta name="theme-color" content="#120d09">
+
+    <title>HOUSE Coffee & Desserts | Gulberg Lahore</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="loader" id="loader">
+        <div class="loader-logo">HOUSE</div>
+        <div class="loader-line"></div>
+        <span>COFFEE & DESSERTS</span>
+    </div>
+
+    <div class="cursor-glow"></div>
+
+    <header class="navbar" id="navbar">
+        <a href="#home" class="brand">
+            <span class="brand-main">HOUSE</span>
+            <span class="brand-sub">COFFEE & DESSERTS</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#story">Our Story</a>
+            <a href="#visit">Visit</a>
+        </nav>
+
+        <a class="nav-order" href="#visit">
+            Visit Us
+            <span>↗</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#story">Our Story</a>
+        <a href="#visit">Visit</a>
+    </div>
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="coffee-steam steam-one"></div>
+            <div class="coffee-steam steam-two"></div>
+            <div class="coffee-steam steam-three"></div>
+
+            <div class="hero-content">
+
+                <div class="eyebrow reveal">
+                    <span></span>
+                    GULBERG · LAHORE
+                </div>
+
+                <h1 class="reveal">
+                    Good coffee.<br>
+                    <em>Better moments.</em>
+                </h1>
+
+                <p class="hero-text reveal">
+                    Specialty coffee, indulgent desserts and a cozy place
+                    to slow down, meet up and enjoy the moment.
+                </p>
+
+                <div class="hero-actions reveal">
+                    <a href="#menu" class="btn btn-primary">
+                        Explore Menu
+                        <span>↓</span>
+                    </a>
+
+                    <a href="#visit" class="btn btn-outline">
+                        Find Us
+                        <span>↗</span>
+                    </a>
+                </div>
+
+                <div class="hero-rating reveal">
+                    <div class="stars">★★★★★</div>
+                    <div>
+                        <strong>4.7</strong>
+                        <span>Google rating</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="scroll-indicator">
+                <span>SCROLL</span>
+                <div></div>
+            </div>
+
+            <div class="hero-side-text">
+                COFFEE · DESSERTS · MOMENTS
+            </div>
+
+        </section>
+
+
+        <section class="intro section-padding">
+
+            <div class="section-number">01</div>
+
+            <div class="intro-grid">
+
+                <div class="intro-title reveal">
+                    <span class="mini-label">THE HOUSE EXPERIENCE</span>
+                    <h2>A little place<br>for <em>big moments.</em></h2>
+                </div>
+
+                <div class="intro-copy reveal">
+                    <p>
+                        At HOUSE, coffee is only the beginning.
+                        Come for your favorite drink, stay for something sweet,
+                        and make yourself comfortable.
+                    </p>
+
+                    <p>
+                        From carefully crafted coffee to desserts worth
+                        sharing, HOUSE is made for relaxed conversations,
+                        quiet afternoons and late-night cravings.
+                    </p>
+
+                    <a href="#story" class="text-link">
+                        Discover HOUSE
+                        <span>→</span>
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="marquee">
+            <div class="marquee-track">
+                <span>COFFEE</span>
+                <i>✦</i>
+                <span>DESSERTS</span>
+                <i>✦</i>
+                <span>GOOD VIBES</span>
+                <i>✦</i>
+                <span>GULBERG</span>
+                <i>✦</i>
+                <span>COFFEE</span>
+                <i>✦</i>
+                <span>DESSERTS</span>
+                <i>✦</i>
+            </div>
+        </section>
+
+
+        <section class="menu-section section-padding" id="menu">
+
+            <div class="section-heading reveal">
+                <div>
+                    <span class="mini-label">02 · OUR MENU</span>
+                    <h2>Made to be <em>remembered.</em></h2>
+                </div>
+
+                <p>
+                    A selection of HOUSE favorites.
+                    Ask our team about today's available specials.
+                </p>
+            </div>
+
+            <div class="menu-tabs reveal">
+                <button class="menu-tab active" data-category="coffee">Coffee</button>
+                <button class="menu-tab" data-category="desserts">Desserts</button>
+                <button class="menu-tab" data-category="bites">Bites</button>
+            </div>
+
+            <div class="menu-grid" id="menuGrid"></div>
+
+            <div class="menu-note">
+                <span>✦</span>
+                Menu availability may vary. Please ask our team for today's selection.
+            </div>
+
+        </section>
+
+
+        <section class="feature-section">
+
+            <div class="feature-image">
+                <div class="image-placeholder">
+                    <div class="cup-icon">☕</div>
+                    <span>HOUSE</span>
+                </div>
+            </div>
+
+            <div class="feature-content">
+                <span class="mini-label">03 · THE COFFEE</span>
+
+                <h2>
+                    Crafted with<br>
+                    <em>care.</em>
+                </h2>
+
+                <p>
+                    Whether you're starting your morning or winding down
+                    after a long day, there's always room for a good cup
+                    of coffee.
+                </p>
+
+                <div class="feature-points">
+                    <div>
+                        <strong>01</strong>
+                        <span>Specialty drinks</span>
+                    </div>
+
+                    <div>
+                        <strong>02</strong>
+                        <span>Fresh desserts</span>
+                    </div>
+
+                    <div>
+                        <strong>03</strong>
+                        <span>Cozy atmosphere</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="story section-padding" id="story">
+
+            <div class="section-number">04</div>
+
+            <div class="story-grid">
+
+                <div class="story-heading reveal">
+                    <span class="mini-label">OUR PHILOSOPHY</span>
+                    <h2>
+                        Stay for<br>
+                        <em>the feeling.</em>
+                    </h2>
+                </div>
+
+                <div class="story-content reveal">
+                    <p class="large-text">
+                        Some places are just places to eat.
+                        HOUSE is meant to feel like somewhere
+                        you actually want to stay.
+                    </p>
+
+                    <p>
+                        Bring your friends. Bring your laptop.
+                        Bring someone special. Or simply bring yourself.
+                        There's always a seat waiting.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="visit-section" id="visit">
+
+            <div class="visit-bg"></div>
+
+            <div class="visit-content">
+
+                <span class="mini-label">05 · COME SAY HELLO</span>
+
+                <h2>
+                    Your next<br>
+                    <em>coffee stop.</em>
+                </h2>
+
+                <div class="visit-info">
+
+                    <div class="info-card">
+                        <span class="info-icon">⌖</span>
+                        <div>
+                            <small>FIND US</small>
+                            <p>Plot 1, Block C1,<br>Gulberg III, Lahore</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <span class="info-icon">◷</span>
+                        <div>
+                            <small>OPEN DAILY</small>
+                            <p>7:00 AM — 2:00 AM</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <span class="info-icon">☎</span>
+                        <div>
+                            <small>CALL US</small>
+                            <p>0324 3338926</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="visit-actions">
+
+                    <a
+                        class="btn btn-primary"
+                        href="https://www.google.com/maps/search/?api=1&query=HOUSE+Coffee+%26+Desserts+Gulberg+Lahore"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Get Directions ↗
+                    </a>
+
+                    <a
+                        class="btn btn-whatsapp"
+                        href="https://wa.me/923243338926"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        WhatsApp Us
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="cta section-padding">
+
+            <div class="cta-inner reveal">
+
+                <span class="mini-label">HOUSE COFFEE & DESSERTS</span>
+
+                <h2>
+                    Come for the coffee.<br>
+                    <em>Stay for the moment.</em>
+                </h2>
+
+                <a href="#visit" class="circle-button">
+                    <span>VISIT<br>HOUSE</span>
+                    <strong>↗</strong>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-top">
+
+            <div class="footer-brand">
+                <span>HOUSE</span>
+                <small>COFFEE & DESSERTS</small>
+            </div>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#story">Our Story</a>
+                <a href="#visit">Visit</a>
+            </div>
+
+            <div class="footer-social">
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram ↗</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <span>© <span id="year"></span> HOUSE Coffee & Desserts</span>
+            <span>GULBERG · LAHORE</span>
+        </div>
+
+    </footer>
+
+
+    <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
